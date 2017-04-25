@@ -8,21 +8,8 @@
     <meta name='keywords' content=''>
     <meta name='author' content=''>
 	<meta name='robots' content='all'>
-  <link rel="stylesheet" type="text/css" href="main.css">
-   <img src="images/title.png" alt="quarry" style="float:left;">
 <?php
- echo'<header >';
 
- echo '</header>';
- echo '<table>';
- echo '<tr>';
- echo'<td class="menu_buttons"><a href="index.php"><b> HOME</b> </a> </td>';
-echo'<td class="menu_buttons"><a href="products.html"> <b>PRODUCTS</b></a></td>';
-echo'<td class="menu_buttons"><a href="about.html"><b>ABOUT </b></a></td>';
-echo'<td class="menu_buttons"><a href="signup.html"> <b>REGISTER </b></a></td>';
-echo'<td class="menu_buttons"><a href="Login.php"> <b>LOGIN</b></a></td>';
- echo'</tr>';
- echo'</table>';
  
 $sname= $_POST['sname'];
 $fname= $_POST['fname'];
