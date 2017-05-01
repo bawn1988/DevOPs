@@ -1,18 +1,11 @@
 <?php
 
-/*require_once 'testcase.php';
-require_once 'PHPUnit.php';
-
-$suite  = new PHPUnit_TestSuite("StringTest");
-$result = PHPUnit::run($suite);
-
-echo $result -> toString();*/
-
-require_once 'testcase.php';
+equire_once 'testcase.php';
 require_once 'PHPUnit.php';
 
 $suite  = new PHPUnit_TestSuite("StringTest");
 $result = PHPUnit::run($suite);
 
 echo $result -> toString();
+
 ?>
